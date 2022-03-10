@@ -19,6 +19,8 @@ public class Veiculo {
     private double valorVar;
     private boolean ipvaPago;
     private boolean quitado;
+    private boolean vendido;
+    
 
     public Veiculo() {
     }
@@ -37,6 +39,14 @@ public class Veiculo {
         this.valorVar = valorVar;
         this.ipvaPago = ipvaPago;
         this.quitado = quitado;
+    }
+
+    public boolean isVendido() {
+        return vendido;
+    }
+
+    public void setVendido(boolean vendido) {
+        this.vendido = vendido;
     }
 
  
